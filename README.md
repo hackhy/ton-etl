@@ -74,7 +74,7 @@ curl --location 'http://localhost:8083/connectors' \
 Before running parser you need to prepare local env file parser.env in [parser](./parser/) directory:
 ```sh
 PGDATABASE=ton_index_v2
-PGHOST=postgres
+PGHOST=postgres <<< postgres ip
 PGUSER=postgres
 PGPORT=5432
 PGPASSWORD= <<< your password here
